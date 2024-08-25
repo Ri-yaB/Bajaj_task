@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+# Specify any development dependencies here, e.g., linters or testing frameworks
+pytest = "*"
+
+[packages]
+flask = "*"
+flask-lambda = "*"
+
+[requires]
+python_version = "3.9"
